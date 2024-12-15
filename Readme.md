@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 // Run npm install
 // then run npm start to load the frontend on the localhost
 
-Loom:
+**Loom**:
 
-Mobile: https://www.loom.com/share/3711af9f3a684568b140ce1c0cd11463
-Web: https://www.loom.com/share/743414ade7794e9788985feed182e42f
+**Mobile**: https://www.loom.com/share/3711af9f3a684568b140ce1c0cd11463
+**Web**: https://www.loom.com/share/743414ade7794e9788985feed182e42f
