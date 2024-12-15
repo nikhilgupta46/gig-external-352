@@ -1,0 +1,46 @@
+.inputContainer {
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  max-width: 400px;
+  gap: 21px;
+  padding: 12px 16px;
+  border: 1px solid #c7530a;
+  margin: 12px 0;
+  align-items: center;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.inputIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  border: 1px solid #c7530a;
+  flex-shrink: 0;
+}
+
+.input {
+  color: #333;
+  letter-spacing: 0.24px;
+  font: 400 14px Cinzel, sans-serif;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+.input::placeholder {
+  color: #929292;
+}

@@ -1,0 +1,99 @@
+.audioRecorder {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.recorderContainer {
+  margin: 20px 0;
+}
+.mic {
+  width: 200px;
+}
+
+.playback {
+  margin: 20px 0;
+}
+
+.controlsContainer {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: var(--primary, #007bff);
+  color: var(--text-light, #fff);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--text-dark, #0056b3);
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.recordButton {
+  border-radius: 20px;
+  border: 0px;
+  background: none;
+  cursor: pointer;
+}
+.recordIcon {
+  width: 60px;
+  height: 60px;
+}
+.starButton {
+  background: none;
+  cursor: pointer;
+  border: 0px;
+}
+
+.ctaButton {
+  border-radius: 40px;
+  background-color: var(--primary);
+  align-self: center;
+  margin-top: 20px;
+  width: 50%;
+  max-width: 100%;
+  color: var(--text-light);
+  letter-spacing: 2px;
+  padding: 16px 16px;
+  font: 700 15px CinzelBold, sans-serif;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.2s ease;
+  box-shadow: 0 4px 8px var(--overlay);
+}
+
+.waveform {
+  width: 80px;
+  height: 80px;
+  transition: width 0.3s ease, height 0.3s ease, transform 0.2s ease;
+}
+
+.waveformBig {
+  width: 100px;
+  height: 100px;
+}
+
+.playButton {
+  border-radius: 20px;
+  align-self: stretch;
+  margin: auto 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

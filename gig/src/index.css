@@ -1,0 +1,38 @@
+:root {
+  --primary: rgba(199, 83, 10, 1);
+  --text-dark: rgba(0, 0, 0, 1);
+  --text-light: rgba(255, 255, 255, 1);
+  --background: rgba(255, 255, 255, 1);
+  --overlay: rgba(0, 0, 0, 0.23);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("./assets/fonts/Cinzel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CinzelDecorative";
+  src: url("./assets/fonts/CinzelDecorative-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CinzelBold";
+  src: url("./assets/fonts/Cinzel-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ImperialScript";
+  src: url("./assets/fonts/ImperialScript-Regular.ttf") format("truetype");
+}

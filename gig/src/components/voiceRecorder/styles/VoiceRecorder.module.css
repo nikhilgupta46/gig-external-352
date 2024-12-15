@@ -1,0 +1,118 @@
+.container {
+  background-color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.loud {
+  align-self: center;
+}
+.textContent {
+  align-self: stretch;
+  display: flex;
+  margin-top: 47px;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 24px;
+  background-color: #f5e5db;
+  border: 1px solid var(--primary);
+  padding: 16px 19px 59px;
+  flex-grow: 1;
+  width: fit-content;
+  padding-bottom: 30px;
+}
+
+.textBox {
+  width: fit-content;
+  text-align: left;
+}
+
+.progressBar {
+  transform: rotate(1.5733355578440393rad);
+  display: flex;
+  margin-top: 4px;
+  flex-direction: column;
+}
+
+.progressContainer {
+  border-radius: 15px;
+  background-color: var(--secondary);
+  display: flex;
+  padding-bottom: 233px;
+  flex-direction: column;
+}
+
+.progressFill {
+  border-radius: 15px;
+  background-color: var(--primary);
+  display: flex;
+  margin-bottom: -47px;
+  height: 80px;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+.controlsContainer {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-evenly;
+}
+
+.recordButton {
+  border-radius: 20px;
+  min-height: 58px;
+  width: 58px;
+  padding: 8px;
+  border: 1px solid var(--primary);
+  background: none;
+  cursor: pointer;
+}
+
+.waveform {
+  aspect-ratio: 1.08;
+  width: 162px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.playButton {
+  aspect-ratio: 1;
+  width: 58px;
+  border-radius: 20px;
+  align-self: stretch;
+  margin: auto 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background-color: #a64308;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px var(--overlay);
+}
+
+.ctaButton:focus {
+  outline: 3px solid var(--text-light);
+  outline-offset: 4px;
+}
+
+.ctaButton:active {
+  transform: scale(0.95);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

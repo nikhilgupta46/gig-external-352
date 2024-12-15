@@ -1,0 +1,74 @@
+.registerPopUp {
+  background-color: #fff;
+  display: flex;
+  /* max-width: 1204px; */
+  flex-direction: column;
+  overflow: hidden;
+  padding: 28px;
+  margin: 0 auto;
+  /* box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1); */
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.closeIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 20px;
+  align-self: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.title {
+  color: #c7530a;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 32px;
+  font: 700 24px Cinzel;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.submitButton {
+  border-radius: 40px;
+  background-color: #c7530a;
+  margin-top: 32px;
+  width: 100%;
+  max-width: 200px;
+  color: #fff;
+  letter-spacing: 1.2px;
+  padding: 12px;
+  font: 700 14px CinzelBold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  align-self: center;
+}
+
+.submitButton:hover {
+  background-color: #a64308;
+}
+
+.submitButton:focus {
+  outline: 2px solid #c7530a;
+  outline-offset: 2px;
+}

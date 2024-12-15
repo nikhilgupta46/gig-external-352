@@ -1,0 +1,24 @@
+.heading {
+  font: 700 30px Cinzel;
+  letter-spacing: 0.6px;
+  color: black;
+  text-align: left;
+}
+
+.subheading {
+  font: 400 20px Cinzel;
+  letter-spacing: 0.4px;
+  color: var(--primary);
+}
+
+.bodyText {
+  font: 400 15px Helvetica;
+  letter-spacing: 0.3px;
+  color: var(--text-dark);
+}
+
+.buttonText {
+  font: 700 12px Cinzel;
+  letter-spacing: 1.2px;
+  color: var(--text-light);
+}

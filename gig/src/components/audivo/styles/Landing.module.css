@@ -1,0 +1,88 @@
+.container {
+  background-color: var(--background);
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.brandLogo {
+  color: var(--primary);
+  letter-spacing: 0.64px;
+  align-self: start;
+  font: 400 32px ImperialScript, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.heroText {
+  color: var(--text-dark);
+  letter-spacing: 4px;
+  font: 700 40px CinzelDecorative;
+  text-align: left;
+}
+
+.regularText {
+  font-family: Cinzel;
+  font-weight: 400;
+}
+
+.highlightedText {
+  font-weight: 900;
+  color: var(--primary);
+}
+
+.mediaFrame {
+  background-color: var(--overlay);
+  display: flex;
+  margin-top: 24px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.mediaContent {
+  aspect-ratio: 1.51;
+  object-position: center;
+  width: 100%;
+}
+
+.ctaButton {
+  border-radius: 40px;
+  background-color: var(--primary);
+  align-self: center;
+  margin-top: 82px;
+  width: 222px;
+  max-width: 100%;
+  color: var(--text-light);
+  letter-spacing: 2px;
+  padding: 16px 16px;
+  font: 700 20px CinzelBold, sans-serif;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.2s ease;
+  box-shadow: 0 4px 8px var(--overlay);
+}
+
+.ctaButton:hover {
+  background-color: #a64308;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px var(--overlay);
+}
+
+.ctaButton:focus {
+  outline: 3px solid var(--text-light);
+  outline-offset: 4px;
+}
+
+.ctaButton:active {
+  transform: scale(0.95);
+}
